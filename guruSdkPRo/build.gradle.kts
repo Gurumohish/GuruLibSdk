@@ -40,7 +40,7 @@ publishing {
                 from(components["release"])
                 groupId = "com.sdkGuru.gurusdkpro"
                 artifactId = "gurusdkpro"
-                version = "1.0.0" // Replace with your version number
+                version = "1.0.3" // Replace with your version number
             }
         }
     }
