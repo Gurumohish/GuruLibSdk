@@ -43,16 +43,6 @@ publishing {
                 version = "1.0.0" // Replace with your version number
             }
         }
-
-        repositories {
-            maven {
-                url = uri("https://github.com/Gurumohish/GuruLibSdk") // Replace with your GitHub repository URL
-                credentials {
-                    username = System.getenv("GITHUB_USER")
-                    password = System.getenv("GITHUB_TOKEN")
-                }
-            }
-        }
     }
 }
 
